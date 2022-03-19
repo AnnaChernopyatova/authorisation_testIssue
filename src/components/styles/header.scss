@@ -2,15 +2,18 @@
 
 .header{
     width: 100vw;
-    height: 11vh;
+    height: 14vh;
     padding-top: 2vh;
     padding-left: 5vw;
     background-color: $MAINCOLOR;
+    margin-bottom: 6vh;
+    box-sizing: border-box;
 
     .headingOne{
         margin: 0%;
         color: $LIGHT;
         font-family: $FONT;
         font-size: 3em;
+        width: 80vw;
     }
 }
