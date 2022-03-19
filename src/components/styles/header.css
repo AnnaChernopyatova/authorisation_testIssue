@@ -1,0 +1,15 @@
+.header {
+  width: 100vw;
+  height: 11vh;
+  padding-top: 2vh;
+  padding-left: 5vw;
+  background-color: #0c8cbe;
+}
+
+.header .headingOne {
+  margin: 0%;
+  color: #ecf8fd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3em;
+}
+/*# sourceMappingURL=header.css.map */

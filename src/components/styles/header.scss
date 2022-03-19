@@ -1,0 +1,16 @@
+@import 'vars';
+
+.header{
+    width: 100vw;
+    height: 11vh;
+    padding-top: 2vh;
+    padding-left: 5vw;
+    background-color: $MAINCOLOR;
+
+    .headingOne{
+        margin: 0%;
+        color: $LIGHT;
+        font-family: $FONT;
+        font-size: 3em;
+    }
+}
