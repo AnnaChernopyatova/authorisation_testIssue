@@ -1,0 +1,62 @@
+.signInBlock {
+  width: 40vw;
+  height: 60vh;
+  margin: auto;
+  border: 20px solid #ecf8fd;
+  border-radius: 15px;
+}
+
+.signInBlock_header {
+  margin: auto;
+  margin-bottom: 7vh;
+  margin-top: 2vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.7em;
+  color: #284db1;
+}
+
+.inputBlock {
+  width: 35vw;
+  height: 10vh;
+  margin: auto;
+  padding-top: 2vh;
+}
+
+.inputBlock_label {
+  margin-top: 4vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #284db1;
+}
+
+.inputBlock_input {
+  height: 5vh;
+  margin-left: 1vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inputBlock_input__email {
+  width: 25vw;
+}
+
+.inputBlock_input__password {
+  width: 20vw;
+}
+
+.signInBlock_button {
+  width: 8vw;
+  height: 7vh;
+  margin-left: 16vw;
+  margin-top: 3vh;
+  border-radius: 10px;
+  border: 2px solid #0c8cbe;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  color: #284db1;
+}
+/*# sourceMappingURL=signingIn.css.map */

@@ -1,0 +1,60 @@
+@import 'vars';
+
+.signInBlock{
+    width: 40vw;
+    height: 60vh;
+    margin: auto;
+    border: 20px solid $LIGHT;
+    border-radius: 15px;
+}
+
+.signInBlock_header{
+    margin: auto;
+    margin-bottom: 7vh;
+    margin-top: 2vh;
+    width: fit-content;
+    font: $FONT;
+    font-size: 2.7em;
+    color: $DARKBLUE;
+}
+
+.inputBlock{
+    width: 35vw;
+    height: 10vh;
+    margin: auto;
+    padding-top: 2vh;
+}
+
+.inputBlock_label{
+    margin-top: 4vh;
+    font-family: $FONT;
+    font-size: 2em;
+    font-weight: 500;
+    color: $DARKBLUE;
+}
+
+.inputBlock_input{
+    height: 5vh;
+    margin-left: 1vw;
+    box-sizing: border-box;
+}
+
+.inputBlock_input__email{
+    width: 25vw;
+}
+
+.inputBlock_input__password{
+    width: 20vw;
+}
+
+.signInBlock_button{
+    width: 8vw;
+    height: 7vh;
+    margin-left: 16vw;
+    margin-top: 3vh;
+    border-radius: 10px;
+    border: 2px solid $MAINCOLOR;
+    font-family: $FONT;
+    font-size: 1.5em;
+    color: $DARKBLUE;
+}
