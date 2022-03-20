@@ -17,16 +17,22 @@ export default function SigningIn (){
 		
 	};
 
-	const clickInput = (element as HTMLInputElement): void => {
-		if(element.name === 'email') {
+	function clickInput (this: HTMLInputElement, ev: Event): void {
+		const target = ev.target as HTMLInputElement;
+		if(target.name === 'email') {
+			emailInput.removeEventListener('click', clickInput);
 			setEmail('');
-		} else if (element.name === 'password') {
-			setEmail('');
+		} else if (target.name === 'password') {
+			passwordInput.removeEventListener('click', clickInput);
+			setPassword('');
 		}
-	};
+	}
 
 	const emailInput = document.getElementById('emailInputSI') as HTMLInputElement;
-	emailInput.addEventListener('click', clickInput(emailInput));
+	emailInput.addEventListener('click', clickInput);
+
+	const passwordInput = document.getElementById('passwordInputSI') as HTMLInputElement;
+	passwordInput.addEventListener('click', clickInput);
 
 	return(
 		<div className='signInBlock'>
