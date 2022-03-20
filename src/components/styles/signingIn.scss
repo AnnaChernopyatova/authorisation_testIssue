@@ -6,16 +6,16 @@
     margin: auto;
     border: 20px solid $LIGHT;
     border-radius: 15px;
-}
 
-.signInBlock_header{
-    margin: auto;
-    margin-bottom: 7vh;
-    margin-top: 2vh;
-    width: fit-content;
-    font: $FONT;
-    font-size: 2.7em;
-    color: $DARKBLUE;
+    &_header{
+        margin: auto;
+        margin-bottom: 7vh;
+        margin-top: 2vh;
+        width: fit-content;
+        font: $FONT;
+        font-size: 2.7em;
+        color: $DARKBLUE;
+    }
 }
 
 .inputBlock{
@@ -23,32 +23,54 @@
     height: 10vh;
     margin: auto;
     padding-top: 2vh;
-}
 
-.inputBlock_label{
-    margin-top: 4vh;
-    font-family: $FONT;
-    font-size: 2em;
-    font-weight: 500;
-    color: $DARKBLUE;
+    &_label{
+        margin-top: 4vh;
+        font-family: $FONT;
+        font-size: 2em;
+        font-weight: 500;
+        color: $DARKBLUE;
+    }
+    
+    &_warning{
+        width: fit-content;
+        display: block;
+        margin-left: 40%;
+        font-size: 0.4em;
+        color: red;
+
+        &__unactive{
+            display: none;
+        }
+    }
 }
 
 .inputBlock_input{
     height: 5vh;
     margin-left: 1vw;
     box-sizing: border-box;
-}
+    border-radius: 10px;
 
-.inputBlock_input__email{
-    width: 25vw;
-}
+    &__warning{
+        height: 5vh;
+        margin-left: 1vw;
+        box-sizing: border-box;
+        border: 2px solid red;
+        border-radius: 10px;
+    }
 
-.inputBlock_input__password{
-    width: 20vw;
-}
+    &__email{
+        width: 25vw;
+    }
 
+    &__password{
+        width: 20vw;
+    }
+    
+}
 .signInBlock_button{
     width: 8vw;
+    min-width: fit-content;
     height: 7vh;
     margin-left: 16vw;
     margin-top: 3vh;
@@ -57,4 +79,11 @@
     font-family: $FONT;
     font-size: 1.5em;
     color: $DARKBLUE;
+
+    &:hover{
+        background-color: $MAINCOLOR;
+        border-color: transparent;
+        color: $LIGHT;
+        cursor: pointer;
+    }
 }
